@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    background-color: #444444;
+    padding: 10px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.sec{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+    font-size: 18px;
+    padding: 60px 40px;
+    
+}
+
+.pic{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    letter-spacing: 5px;
+    color: white;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-attachment: fixed;
+
+
+}
+
+#sec1{
+    color: #333333;
+    background-color: #ffffff;
+
+}
+
+.pic:first-child{
+    height: 100vh;
+    background-image: url(https://content.r9cdn.net/rimg/dimg/39/86/ae1975d6-city-26939-15516fe0259.jpg?width=1750&height=1000&xhint=2069&yhint=1666&crop=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic2{
+    background-image: url(https://www.roughguides.com/wp-content/uploads/2012/06/neuschwanstein-castle-germany-shutterstock_752842678.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pic3{
+    background-image: url(https://cdn.parcelbroker.co.uk/images/country/germany-new.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.pic:last-child{
+    height: 100vh;
+
+
+    background-image: url(https://s3-eu-west-1.amazonaws.com/uploads.services.internations.org/files/2018/11/05165848/Germany_Overview-2400x1158.jpeg
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
